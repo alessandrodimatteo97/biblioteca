@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="509.0" prefWidth="997.0" style="-fx-background-color: #dcdcdc;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.front.view.controller.viewerPageController">
+   <children>
+      <ImageView fx:id="imageview" fitHeight="413.0" fitWidth="462.0" layoutX="12.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="label" layoutX="797.0" layoutY="432.0" prefHeight="17.0" prefWidth="180.0" />
+      <TextField fx:id="titolo" layoutX="803.0" layoutY="241.0" promptText="titolo" style="-fx-background-color: white; -fx-border-color: black;" />
+      <TextField fx:id="isbn" layoutX="804.0" layoutY="292.0" promptText="isbn" style="-fx-background-color: white; -fx-border-color: black;" />
+      <TextArea fx:id="textarea" layoutX="499.0" layoutY="44.0" prefHeight="413.0" prefWidth="293.0" style="-fx-background-color: #dcdcdc;" />
+      <Button layoutX="662.0" layoutY="463.0" mnemonicParsing="false" onAction="#avanti" prefHeight="27.0" prefWidth="65.0" style="-fx-background-color: white; -fx-border-color: black;" text="avanti" />
+      <Button layoutX="563.0" layoutY="463.0" mnemonicParsing="false" onAction="#indietro" style="-fx-background-color: white; -fx-border-color: black;" text="indietro" />
+      <Button layoutX="846.0" layoutY="340.0" mnemonicParsing="false" onAction="#selectImgTxt" style="-fx-background-color: white; -fx-border-color: black;" text="seleziona" />
+      <Button layoutX="848.0" layoutY="388.0" mnemonicParsing="false" onAction="#downloader" style="-fx-background-color: white; -fx-border-color: black;" text="download" />
+      <TextArea fx:id="descrizione" layoutX="814.0" layoutY="35.0" prefHeight="185.0" prefWidth="152.0" />
+   </children>
+</AnchorPane>

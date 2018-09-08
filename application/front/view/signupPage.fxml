@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="280.0" prefHeight="343.0" prefWidth="454.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.front.view.controller.signupPageController">
+   <children>
+      <Label layoutX="24.0" layoutY="25.0" text="inserire email" />
+      <Label layoutX="22.0" layoutY="57.0" text="inserire password" />
+      <Label layoutX="23.0" layoutY="88.0" text="inserire nome" />
+      <Label layoutX="24.0" layoutY="115.0" text="inserire il cognome" />
+      <Label layoutX="23.0" layoutY="196.0" text="inserire il codice fiscale" />
+      <TextField fx:id="email" layoutX="258.0" layoutY="20.0" />
+      <TextField fx:id="password" layoutX="258.0" layoutY="52.0" />
+      <TextField fx:id="nome" layoutX="258.0" layoutY="83.0" />
+      <TextField fx:id="cognome" layoutX="258.0" layoutY="110.0" />
+      <TextField fx:id="datanascita" layoutX="258.0" layoutY="137.0" />
+      <Button fx:id="registrazione" layoutX="16.0" layoutY="289.0" mnemonicParsing="false" onAction="#signed" text="registrazione" />
+      <Button fx:id="reset" layoutX="390.0" layoutY="289.0" mnemonicParsing="false" onAction="#resetbutton" text="reset" />
+      <Label fx:id="accesso" layoutX="129.0" layoutY="294.0" prefHeight="17.0" prefWidth="251.0" />
+      <TextField fx:id="residenza" layoutX="258.0" layoutY="164.0" />
+      <TextField fx:id="cf" layoutX="258.0" layoutY="191.0" />
+      <Label layoutX="18.0" layoutY="142.0" text="  inserire la data di nascita" />
+      <Label layoutX="23.0" layoutY="169.0" text="inserire il comune di residenza" />
+      <Label layoutX="23.0" layoutY="226.0" text="inserire titolo di studio" />
+      <Label layoutX="23.0" layoutY="252.0" text="inserire la professione" />
+      <TextField fx:id="professione" layoutX="258.0" layoutY="247.0" />
+      <TextField fx:id="titolostudio" layoutX="258.0" layoutY="221.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="mainPage" prefHeight="414.0" prefWidth="600.0" style="-fx-background-color: #dcdcdc; -fx-border-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.front.view.controller.mainPageController">
+   <children>
+    <Button layoutX="43.0" layoutY="454.0" mnemonicParsing="false" onAction="#anagrafica" prefHeight="5.0" prefWidth="126.0" style="-fx-background-color: white; -fx-border-color: #808080;" text="Anagrafica" textAlignment="CENTER" textFill="#0d0d0d" />
+      <Button fx:id="admin" alignment="CENTER" contentDisplay="CENTER" layoutX="42.0" layoutY="380.0" mnemonicParsing="false" onAction="#Administrator" prefHeight="5.0" prefWidth="126.0" style="-fx-background-color: white; -fx-border-color: #808080;" text="Amministratore" textAlignment="CENTER" textFill="#0d0d0d" />
+      <Button fx:id="mana" layoutX="42.0" layoutY="304.0" mnemonicParsing="false" onAction="#Manager" prefHeight="5.0" prefWidth="126.0" style="-fx-background-color: white; -fx-border-color: #808080;" text="Manager" textAlignment="CENTER" textFill="#0d0d0d" />
+      <Button fx:id="tran" alignment="CENTER" contentDisplay="CENTER" layoutX="43.0" layoutY="164.0" mnemonicParsing="false" onAction="#Transcriber" prefHeight="5.0" prefWidth="126.0" style="-fx-background-color: white; -fx-border-color: #808080;" text="Transcrittore" textAlignment="CENTER" textFill="#0d0d0d" />
+      <Button fx:id="upl" layoutX="43.0" layoutY="233.0" mnemonicParsing="false" onAction="#Uploader" prefHeight="5.0" prefWidth="126.0" style="-fx-background-color: white; -fx-border-color: #808080;" text="Uploader" textAlignment="CENTER" textFill="#0d0d0d" />
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="42.0" layoutY="94.0" mnemonicParsing="false" onAction="#Viewer" prefHeight="5.0" prefWidth="126.0" style="-fx-background-color: white; -fx-border-color: #808080;" text="Viewer" textAlignment="CENTER" textFill="#0d0d0d" />
+      <Label layoutX="38.0" layoutY="14.0" prefHeight="44.0" prefWidth="525.0" text="Benvenuto nella biblioteca digitale" textFill="#0d0d0d">
+         <font>
+            <Font name="Courier New" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="assegnamenti" layoutX="300.0" layoutY="179.0" prefHeight="17.0" prefWidth="195.0" />
+      <AnchorPane fx:id="ndRoot" layoutX="210.0" layoutY="96.0" prefHeight="465.0" prefWidth="322.0" />
+      
+               </children>
+</AnchorPane>

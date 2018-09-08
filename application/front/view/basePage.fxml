@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.front.view.controller.mainPageController">
+  <top>
+    <TilePane prefHeight="48.0" prefWidth="600.0" style="-fx-background-color: gray;">
+      <children>
+        <AnchorPane prefHeight="43.0" prefWidth="600.0">
+          <children>
+            <ImageView fitHeight="43.0" fitWidth="43.0" layoutX="10.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" style="fx-backgroud-color : black;">
+              <image>
+                <Image url="@application/img/icon.png" />
+              </image>
+            </ImageView>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="62.0" layoutY="7.0" text="Digital Library" textFill="WHITE">
+              <font>
+                <Font size="22.0" />
+              </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="364.0" layoutY="15.0" text="Ciao, " />
+            <Label fx:id="info" layoutX="401.0" layoutY="15.0" prefHeight="17.0" prefWidth="185.0" text="Label" />
+          </children>
+        </AnchorPane>
+      </children>
+    </TilePane>
+  </top>
+   <center>
+      <SplitPane dividerPositions="0.7357859531772575" prefHeight="160.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+        </items>
+      </SplitPane>
+   </center>
+</BorderPane>
